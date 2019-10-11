@@ -10,6 +10,21 @@
   </head>
 
   <body>
+    <header class='row'>
+      <div class="col-2">
+        LOGO
+      </div>
+      <div class="col-7">
+        <h1>So Many Blends to Choose From</h1>
+      </div>
+      <div class="col-3">
+        <%= link_to 'Add', '#' %>
+        <%= link_to 'About', '#' %>
+      </div>
+    </header>
+
+    <br class="clear" />
+
     <%= yield %>
   </body>
 </html>
